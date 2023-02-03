@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
+require_relative "../lib/horse_drawn_cart"
+require_relative "../lib/town"
+require_relative "../lib/pile_of_nuts"
 
 require "irb"
 IRB.start(__FILE__)
