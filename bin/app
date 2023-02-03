@@ -8,6 +8,3 @@ require_relative "../lib/horse_drawn_cart"
 require_relative "../lib/town"
 require_relative "../lib/pile_of_nuts"
 require_relative "../lib/application"
-
-require "irb"
-IRB.start(__FILE__)
