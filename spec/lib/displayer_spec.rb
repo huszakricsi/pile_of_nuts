@@ -23,7 +23,6 @@ describe Displayer do
     displayer.display(calculations, header)
     stdout.rewind
     lines = stdout.string.split("\n")
-    p lines
     expect(lines).to eq expected_output
   end
 end
